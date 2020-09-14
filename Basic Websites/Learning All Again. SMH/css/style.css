@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    text-align: center ;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1{
+    font-size: 90px;
+    margin-top:20px auto 0 auto;
+}
+
+h2{
+    font-size:2.5rem;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.top-Container{
+    background-color: #a3d2ca ;
+    position: relative;
+    padding-top: 100px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.Skills{
+    width: 25%;
+    float:left;
+    margin-right:100px;
+}
+
+
+.skill-row{
+    width:50%;
+    margin:100px auto;
+}
+
+.Span1{
+    text-decoration: underline;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.middle-Container{
+    background-color: red;
+    height:200px;
+    width:200px;
+
+}
+
+.h3{
+    color:#11999E;
+    line-height: 2;
+}
+
+
+
+.footer-link{
+    color:#11999E;
+}
+
+
+.Bottom-cloud{
+    position: absolute;
+    bottom:150px;
+    left:100px;
+
+    
+}
+
+.Top-Cloud{
+    position: absolute; 
+    bottom:240px;
+    right: 200px;
+   
+}
