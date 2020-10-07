@@ -1,0 +1,64 @@
+.body{
+    background-color: grey;
+    color: #38EF7D;
+}
+
+.Game{
+    background-color: grey;
+}
+
+.BigHeader{
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #38EF7D;
+}
+
+.SubHeader{
+    text-align: center;
+    color: #38EF7D;
+    font-size: 4rem;
+    padding:10px 15%;
+    float: left;
+    margin-left: 40px;
+}
+
+.Image{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+img {
+    width: 80%;
+  }
+
+  p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+  }
+
+  .container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    background-color: #393E46;
+  }
