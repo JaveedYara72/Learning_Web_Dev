@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/litera/bootstrap.min.css"
+      integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <title>Github Finder</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Github Finder</a>
+      </div>
+    </nav>
+    <div class="container searchContainer">
+      <div class="search card card-body">
+        <h1>Search Github Users</h1>
+        <p class="lead">Enter a Username to Fetch</p>
+        <input
+          type="text"
+          class="form-control"
+          id="searchUser"
+          placeholder="Github UserName."
+        />
+      </div>
+      <br />
+      <div id="profile"></div>
+    </div>
+
+    <footer class="mt-5 p-3 text-center bg-light">Github Finder &copy;</footer>
+
+    <script src="github.js"></script>
+    <script src="UI.js"></script>
+    <script src="app.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
